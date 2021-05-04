@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "430904387189",
+    "project_id": "hopefanc-1cf5f",
+    "storage_bucket": "hopefanc-1cf5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430904387189:android:0df9e1e28d5af995a6ba3c",
+        "android_client_info": {
+          "package_name": "com.hopeforAll.hopefanc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430904387189-s297lgp21slr7h57emkeoa8ucuhb4ueu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hopeforAll.hopefanc",
+            "certificate_hash": "e33f33bc527420a90ef3f34de142c46ad3c57ccd"
+          }
+        },
+        {
+          "client_id": "430904387189-6tub2ifvhobtvst927e6olkjd29bekj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD55xUuxThPt2SlUhZWB8XMzgE7eG7Fi2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430904387189-6tub2ifvhobtvst927e6olkjd29bekj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -11,40 +11,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="172dp"
-            android:orientation="vertical">
-
-
-            <TextView
-                android:id="@+id/textView7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-android:textColor="@color/design_default_color_primary"
-                android:textSize="15dp"
-                android:text="Prayer request to:hopefanc@gmail.com" />
-
-            <EditText
-                android:id="@+id/textView9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="type your name " />
-
-            <EditText
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="type your prayer request here" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="SEND"
-                android:textColor="@color/design_default_color_primary" />
-        </LinearLayout>
-
         <WebView
             android:id="@+id/web"
             android:layout_width="match_parent"

@@ -1,12 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/yt"
     tools:context=".ui.donation.DonationFragment">
 
-    <WebView
-        android:id="@+id/t"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-</LinearLayout>
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton33"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp"
+                    app:srcCompat="@drawable/pi" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/design_default_color_on_primary"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text=" May our Lord Jesus be your portion ..." />
+
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/white"
+                    android:text="@string/donation" />
+
+
+                <Button
+                    android:id="@+id/button77"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SCOTIATIA BANK"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/ripple_buttons"/>
+
+                <Button
+                    android:id="@+id/button78"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PAYPAL"
+                    android:textColor="@color/white"
+                    android:background="@drawable/ripple_buttons"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NATIONAL BANK"
+                    android:textColor="@color/white"
+                    android:background="@drawable/ripple_buttons"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TD BANK"
+                    android:textColor="@color/white"
+                    android:background="@drawable/ripple_buttons"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RDBC"
+                    android:textColor="@color/white"
+                    android:background="@drawable/ripple_buttons"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/design_default_color_on_primary"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:text="OTHER:" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/design_default_color_on_primary"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:text="please contact your main bank branch " />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/design_default_color_on_primary"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    android:text="if you have any question ,  please book an appointment " />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

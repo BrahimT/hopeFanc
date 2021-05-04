@@ -3,12 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".ui.follow.followfragment">
 
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call secretary at : +1 343-777-4768 or visite our website: www.hopeFanc.org"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book appointment here:"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp" />
 
     <WebView
         android:id="@+id/gg"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="588dp" />
 </LinearLayout>
