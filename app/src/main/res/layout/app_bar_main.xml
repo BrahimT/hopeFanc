@@ -4,30 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NavigatorActivity">
+    tools:context=".NavigatorActivity"
+    android:background="@color/white">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.HopeFanc.AppBarOverlay">
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+        <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.HopeFanc.PopupOverlay" />
+            android:layout_height="wrap_content"
+            android:id="@+id/appbar"
+            android:theme="@style/Theme.HopeFanc.AppBarOverlay">
 
-    </com.google.android.material.appbar.AppBarLayout>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/Theme.HopeFanc.PopupOverlay" />
 
-    <include layout="@layout/content_main" />
+        </com.google.android.material.appbar.AppBarLayout>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+        <include layout="@layout/content_main"/>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/chipNav"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/purple_500"
+            android:layout_marginBottom="60dp"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+
+
+        <com.ismaeldivita.chipnavigation.ChipNavigationBar
+            android:id="@+id/chipNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cnb_menuResource="@menu/bottom_nav_menu"
+            android:layout_gravity="bottom"
+            android:background="@drawable/round_corner"
+            app:cnb_unselectedColor="@android:color/white"
+            app:cnb_radius="4dp"
+            app:cnb_iconSize="20dp"
+            app:cnb_orientationMode="horizontal"
+            android:elevation="8dp"/>
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

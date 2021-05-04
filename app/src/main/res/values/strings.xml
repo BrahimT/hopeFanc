@@ -9,10 +9,24 @@
 
     <string name="menu_home"> Home</string>
     <string name="menu_gallery"> Gallery</string>
-    <string name="menu_slideshow"> Mandate and prayer</string>
+    <string name="menu_slideshow"> Zoom </string>
     <string name="menu_sermon">sermon</string>
     <string name="Sermon">sermon</string>
-    <string name="Followus">follow us</string>
+    <string name="Followus">Book appointment</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="skip">Skip</string>
+
+    <string name="by_using_our_app_you_agree_our">By using our app, you agree our</string>
+    <string name="terms_and_conditions">
+        <a href="https://hopefanc.org/">Terms and Conditions</a>
+    </string>
+    <string name="and">and</string>
+    <string name="privacy_policy">
+        <a href="https://hopefanc.org/">Privacy Policy</a>
+    </string>
+    <string name="logout">Logout</string>
+    <string name="donation">please any donation should be send to <b>hopefanc@gmail.com</b></string>
+
 </resources>

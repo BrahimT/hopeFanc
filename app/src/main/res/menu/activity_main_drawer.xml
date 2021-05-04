@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/k"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
 
     tools:showIn="navigation_view">
 
@@ -24,7 +26,8 @@
         <item
             android:id="@+id/bible"
             android:icon="?attr/homeAsUpIndicator"
-            android:title="bible verses" />
+            android:title=" verses"
+            app:showAsAction="always"/>
         <item
             android:id="@+id/donation"
             android:icon="?android:attr/panelFullBackground"
@@ -33,9 +36,6 @@
             android:id="@+id/follow"
             android:icon="@android:drawable/checkbox_on_background"
             android:title="@string/Followus" />
-        <item
-            android:id="@+id/contact"
-            android:icon="@drawable/ic_launcher_foreground"
-            android:title="developer info" />
+
     </group>
 </menu>
